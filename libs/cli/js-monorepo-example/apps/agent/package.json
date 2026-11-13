@@ -4,7 +4,7 @@
   "type": "module",
   "main": "src/graph.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist"
   },
   "dependencies": {
