@@ -10,7 +10,7 @@
   ],
   "type": "module",
   "scripts": {
-    "build": "turbo build",
+    "build": "node init && turbo build",
     "clean": "turbo clean",
     "test": "turbo test",
     "format": "prettier --write .",
